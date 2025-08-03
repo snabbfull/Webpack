@@ -19,7 +19,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                type: 'javascript/auto',  // <--- вот это добавь
+                type: 'javascript/auto',
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'

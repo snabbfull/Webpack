@@ -1,4 +1,3 @@
-node_ modules
 .idea
 Thumbs.db*
 .DS_Store*
@@ -86,4 +85,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-node_modules
+
+/dist
